@@ -73,21 +73,21 @@ void loop() {
     delay(10);
   }
 
-//  //Forward
-//  if (xpos < 460 && ypos > 564) {
-//    digitalWrite(in1, LOW);
-//    digitalWrite(in2, HIGH);
-//
-//    digitalWrite(in3, LOW);
-//    digitalWrite(in4, HIGH);
-//
-//    digitalWrite(in5, LOW);
-//    digitalWrite(in6, HIGH);
-//
-//    digitalWrite(in7, LOW);
-//    digitalWrite(in8, HIGH);
-//    delay(10);
-//  }
+  //Forward
+  if (xpos < 460 && ypos > 564) {
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+
+    digitalWrite(in5, LOW);
+    digitalWrite(in6, HIGH);
+
+    digitalWrite(in7, LOW);
+    digitalWrite(in8, HIGH);
+    delay(10);
+  }
 
     //Right
     if (ypos > 564 && xpos > 564) {
@@ -105,37 +105,37 @@ void loop() {
       delay(10);
     }
 
-  //  //Left
-  //  if (ypos < 460 && xpos < 460) {
-  //    digitalWrite(in1, HIGH);
-  //    digitalWrite(in2, LOW);
-  //
-  //    digitalWrite(in3, HIGH);
-  //    digitalWrite(in4, LOW);
-  //
-  //    digitalWrite(in5, LOW);
-  //    digitalWrite(in6, HIGH);
-  //
-  //    digitalWrite(in7, LOW);
-  //    digitalWrite(in8, HIGH);
-  //    delay(10);
-  //  }
+    //Left
+    if (ypos < 460 && xpos < 460) {
+      digitalWrite(in1, HIGH);
+      digitalWrite(in2, LOW);
+  
+      digitalWrite(in3, HIGH);
+      digitalWrite(in4, LOW);
+  
+      digitalWrite(in5, LOW);
+      digitalWrite(in6, HIGH);
+  
+      digitalWrite(in7, LOW);
+      digitalWrite(in8, HIGH);
+      delay(10);
+    }
 
   // stand
-  //  if (ypos == 513 &&  xpos == 512) {
-  //    digitalWrite(in1, LOW);
-  //    digitalWrite(in2, LOW);
-  //
-  //    digitalWrite(in3, LOW);
-  //    digitalWrite(in4, LOW);
-  //
-  //    digitalWrite(in5, LOW);
-  //    digitalWrite(in6, LOW);
-  //
-  //    digitalWrite(in7, LOW);
-  //    digitalWrite(in8, LOW);
-  //    delay(10);
-  // }
+    if (ypos == 513 &&  xpos == 512) {
+      digitalWrite(in1, LOW);
+      digitalWrite(in2, LOW);
+  
+      digitalWrite(in3, LOW);
+      digitalWrite(in4, LOW);
+  
+      digitalWrite(in5, LOW);
+      digitalWrite(in6, LOW);
+  
+      digitalWrite(in7, LOW);
+      digitalWrite(in8, LOW);
+      delay(10);
+   }
 
 
 }
